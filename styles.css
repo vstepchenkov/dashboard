@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(55, 54, 145);
+}
+
+.wrapper{
+    width: 100%;
+}  
+
+.viewer_pbi-frame{
+    width: 100%;
+    height: 600px;
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        background-color: rgb(122, 103, 103);
+    }
+    .viewer_pbi-frame {
+        width: 100%;
+        height: 400px;
+    }
+  }
+
+@media only screen and (max-width: 450px) {
+    body {
+        background-color: rgb(156, 107, 107);
+    }
+    .viewer_pbi-frame {
+        width: 100%;
+        height: 200px;
+    }
+  }
+
